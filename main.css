@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 35px 0;
+    background-color: #0c0c0c ;
+    color: #ecf0f1; 
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e7e5e5;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    font-family: 'Great Vibes', cursive;
+    font-size:  70px; ;
+   
+}
+
+header h3{
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+header .container a{
+    padding-left: 25px;
+    font-family: 'Satisfy', cursive;
+    font-size: 28px;
+    
+}
+
+header .container li{
+    list-style: none;
+}
+
+
+header .container ul{
+    display: flex;
+}   
+
+header  li a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+section .d1 img, .d2 img{
+    width: 550px;
+    height: 550px;
+    margin-top: 30px;
+    margin-left:30px ;    
+}
+
+.d1 ul, .d2 ul{
+    display: flex;
+justify-content: center;
+}
+
+section .d1 li, .d2 li {
+    list-style: none;
+}
+
+#s3 .d1, input, textarea, button{
+    display:block;
+    margin: 5px 5px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+button{
+    background-color: #555252;
+    color: #fff;
+}
+
+#s3 .d1, input{
+    display: flex;
+} 
+
+#s3 h2, h3{
+    text-align: center;
+}
+
+#s3{
+    margin-top: 30px;
+    font-family: 'Monomaniac One', sans-serif;
+    font-weight: 300;
+    font-style: unset;
+}
+
+
+form input, form textarea, form button{
+    width: 300px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.sobre{
+    display:flex;
+    align-items:end;
+    margin: 50px;
+    }
+
+.sobre h2{
+    padding-right: 15px;
+    font-weight: 400;
+    font-family: 'Monomaniac One', sans-serif;
+}
+
+footer{
+    background-color: #0c0c0c;
+    color: #fff;
+    display: flex;
+    padding: 15px 15px;
+}
+
+footer img{
+    height: 55px;
+    padding-left: 15px;
+}
+.img{
+    display: flex;
+    margin-left: 800px;
+}
+
+
+#foot{
+    display: flex;
+}
+
+
+footer #foot .container{
+    align-items: center;
+}
+
+footer #foot .container{
+    padding-left: 300px;
+}
+
+footer .img{
+    cursor: pointer;
+}
